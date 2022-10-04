@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #03191e;
+  --primary-bg: #c1cfda;
+  --error: #941c2f;
+  --success: #20a4f3;
+}
+body {
+  background-color: var(--primary-bg);
+  color: var(--primary-color);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+input {
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--success);
+  border-radius: 0.3rem;
+}
+button {
+  padding: 0.5rem 0.7rem;
+  background-color: transparent;
+  border: 1px solid var(--success);
+  border-radius: 0.3rem;
+  color: var(--success);
+  font-weight: 800;
+  font-size: large;
+}
+.label {
+  font-size: large;
+  font-weight: 500;
+}
+.text-center {
+  text-align: center;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.error {
+  color: var(--error);
+}
+.success {
+  color: var(--success);
+}
+.message {
+  text-align: center;
+}
